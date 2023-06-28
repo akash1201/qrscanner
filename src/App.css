@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #ccc;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+      width: 100%;
+  }
+}
